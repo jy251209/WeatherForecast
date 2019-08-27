@@ -2,55 +2,6 @@
   {
     "elements": [
       {
-        "id": "verify-the-functionality-of-weather-forecasting-application;verify-the-user-is-able-to-retrieve-5-day-weather-forecast-of-the-city",
-        "keyword": "Scenario",
-        "line": 11,
-        "name": "Verify the user is able to retrieve 5 day weather forecast of the city",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "name": "Application is open",
-            "result": {
-              "status": "passed",
-              "duration": 618664039
-            },
-            "line": 4,
-            "match": {
-              "location": "/Users/jyothishputhanpurachiraa/Documents/WebEx/protractor-cucumber-example-master/features/steps/steps.js:11"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "name": "I enter the aberdeen and click on submit",
-            "result": {
-              "status": "passed",
-              "duration": 2444246
-            },
-            "line": 5,
-            "match": {
-              "location": "/Users/jyothishputhanpurachiraa/Documents/WebEx/protractor-cucumber-example-master/features/steps/steps.js:18"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "I should get the five day whether forecast",
-            "result": {
-              "status": "passed",
-              "duration": 451943
-            },
-            "line": 6,
-            "match": {
-              "location": "/Users/jyothishputhanpurachiraa/Documents/WebEx/protractor-cucumber-example-master/features/steps/steps.js:24"
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
         "id": "verify-the-functionality-of-weather-forecasting-application;verify-that-the-user-is-able-to-retrieve-hourly-forecast-of-a-day",
         "keyword": "Scenario",
         "line": 22,
@@ -62,7 +13,7 @@
             "name": "Application is open",
             "result": {
               "status": "passed",
-              "duration": 729745320
+              "duration": 693945903
             },
             "line": 14,
             "match": {
@@ -75,7 +26,7 @@
             "name": "I enter the aberdeen and click on submit",
             "result": {
               "status": "passed",
-              "duration": 1351558
+              "duration": 2598023
             },
             "line": 15,
             "match": {
@@ -88,7 +39,7 @@
             "name": "I should get the five day whether forecast",
             "result": {
               "status": "passed",
-              "duration": 202167
+              "duration": 556267
             },
             "line": 16,
             "match": {
@@ -101,7 +52,7 @@
             "name": "I select a Wed and I will get hourly forecast",
             "result": {
               "status": "passed",
-              "duration": 1493435
+              "duration": 1673450
             },
             "line": 17,
             "match": {

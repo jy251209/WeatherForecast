@@ -25,6 +25,7 @@ exports.config = {
 	  
   },
   onComplete: function(){
+      console.log('test')
 	  Reporter.createHTMLReport();
   },
   allScriptsTimeout: 1000000

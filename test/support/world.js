@@ -32,7 +32,7 @@ switch(platform) {
 	case 'ANDROID':
 	var driver = buildAndroidDriver();
 	break;
-	case 'FIREFOX':
+	case 'w':
 	var driver = buildFirefoxDriver();
 	break;
 	default:

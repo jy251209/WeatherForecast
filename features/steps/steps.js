@@ -21,10 +21,8 @@ var WeatherFunctions = function () {
     browser.findElement(by.xpath("//input[@id='city']")).sendKeys(protractor.Key.ENTER);
   })
 
-  this.Given(/^I should get the five day whether forecast$/, function (callback) {
+  this.Given(/^I should get the five day whether forecast$/, function () {
     stepPage.weatherforecast();
-    console.log('process.cwd()',process.cwd())
-    callback();
   })
   this.Given(/^I select a (.*) and I will get hourly forecast$/, function (day) {
     console.log('day is',day)
@@ -34,7 +32,7 @@ var WeatherFunctions = function () {
     stepPage.MinMaxtemp(day)
     stepPage.aggrgtRainfall(day)
     stepPage.dominantCondition(day)
-    stepPage.windSpeed(day)
+    stepPage.WindSpeed(day)
 //     browser.pause()
   })
 
