@@ -9,8 +9,7 @@ This creates the cucumber tests to cover the functional testing of weather forec
 ### Clone Repository
 
 ```
-git clone https://github.com/mlev/protractor-cucumber-example.git
-cd protractor-cucumber-example
+git clone https://github.com/jy251209/WeatherForecast.git
 ```
 
 ### Install Dependencies
@@ -25,11 +24,18 @@ npm install
 npm run start-webdriver 
 ```
 
+### Run server (in another terminal window)
+```
+npm run start
+```
 
 ### Run Protractor (in another terminal window)
 
 ```
 npm run protractor
 ```
+This command will execute all the scenarios inside the feature file
 
-
+##Due to time constraint could not include some of the below scenarios
+Browser compatibility
+Unit of the measurements displayed is a valid one

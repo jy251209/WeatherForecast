@@ -19,7 +19,7 @@ Feature: Verify the functionality of weather forecasting application
     Examples:
 
       | City name | Day |
-#      | aberdeen  | Wed |
+      | aberdeen  | Wed |
 #      | dundee    | Sat |
 #      | Glasgow   | Tue |
 #      | perth     | Wed |
@@ -35,7 +35,7 @@ Feature: Verify the functionality of weather forecasting application
     Examples:
 
       | City name | Day |
-#      | aberdeen  | Fri |
+      | aberdeen  | Fri |
 
   Scenario Outline: Verify that the user is getting error message in case of invalid city
     Given Application is open
@@ -45,7 +45,7 @@ Feature: Verify the functionality of weather forecasting application
     Examples:
 
       | City name | Error Message Text             |
-#      | abcd      | Error retrieving the forecast  |
+      | abcd      | Error retrieving the forecast  |
 #      | 1234      | Error retrieving the forecast  |
 
   Scenario Outline: Verify that the user is getting error message when submitting without entering any input

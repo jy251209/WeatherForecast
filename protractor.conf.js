@@ -14,7 +14,7 @@ exports.config = {
   ],
   cucumberOpts: {
     require: ['env.js','features/steps/steps.js'],
-    format: 'json:./reports/json/cucumber_report.json',
+    // format: 'json:./reports/json/cucumber_report.json',
 	dryRun: false,
 	
   },
