@@ -23,7 +23,7 @@ npm install
 webdriver-manger start 
 ```
 
-### Run the below command to make the application up and running
+### Run the below command to make the server up and running
 ```
 npm run start
 ```

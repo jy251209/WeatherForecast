@@ -13,7 +13,7 @@
             "name": "Application is open",
             "result": {
               "status": "passed",
-              "duration": 2986116
+              "duration": 1844840
             },
             "line": 128,
             "match": {
@@ -26,7 +26,7 @@
             "name": "I enter the aberdeen and click on submit",
             "result": {
               "status": "passed",
-              "duration": 4920857
+              "duration": 2598835
             },
             "line": 129,
             "match": {
@@ -39,7 +39,7 @@
             "name": "I should get the five day whether forecast",
             "result": {
               "status": "passed",
-              "duration": 1811417
+              "duration": 931034
             },
             "line": 130,
             "match": {
@@ -52,7 +52,7 @@
             "name": "I select a Fri and I will get hourly forecast",
             "result": {
               "status": "passed",
-              "duration": 1499248
+              "duration": 782768
             },
             "line": 131,
             "match": {
@@ -65,7 +65,7 @@
             "name": "I hide the hourly forecast of the selected Fri",
             "result": {
               "status": "passed",
-              "duration": 1242723
+              "duration": 727188
             },
             "line": 132,
             "match": {
@@ -97,7 +97,7 @@
             "name": "Application is open",
             "result": {
               "status": "passed",
-              "duration": 547454
+              "duration": 290191
             },
             "line": 128,
             "match": {
@@ -110,7 +110,7 @@
             "name": "I enter the dundee and click on submit",
             "result": {
               "status": "passed",
-              "duration": 2606940
+              "duration": 1330247
             },
             "line": 129,
             "match": {
@@ -123,7 +123,7 @@
             "name": "I should get the five day whether forecast",
             "result": {
               "status": "passed",
-              "duration": 995666
+              "duration": 406382
             },
             "line": 130,
             "match": {
@@ -136,7 +136,7 @@
             "name": "I select a Sat and I will get hourly forecast",
             "result": {
               "status": "passed",
-              "duration": 2729756
+              "duration": 574593
             },
             "line": 131,
             "match": {
@@ -149,7 +149,7 @@
             "name": "I hide the hourly forecast of the selected Sat",
             "result": {
               "status": "passed",
-              "duration": 541971
+              "duration": 212689
             },
             "line": 132,
             "match": {
@@ -181,7 +181,7 @@
             "name": "Application is open",
             "result": {
               "status": "passed",
-              "duration": 1045340
+              "duration": 685258
             },
             "line": 128,
             "match": {
@@ -194,7 +194,7 @@
             "name": "I enter the Glasgow and click on submit",
             "result": {
               "status": "passed",
-              "duration": 1432306
+              "duration": 602646
             },
             "line": 129,
             "match": {
@@ -207,7 +207,7 @@
             "name": "I should get the five day whether forecast",
             "result": {
               "status": "passed",
-              "duration": 799741
+              "duration": 845083
             },
             "line": 130,
             "match": {
@@ -220,7 +220,7 @@
             "name": "I select a Tue and I will get hourly forecast",
             "result": {
               "status": "passed",
-              "duration": 741464
+              "duration": 565384
             },
             "line": 131,
             "match": {
@@ -233,7 +233,7 @@
             "name": "I hide the hourly forecast of the selected Tue",
             "result": {
               "status": "passed",
-              "duration": 370624
+              "duration": 277748
             },
             "line": 132,
             "match": {
@@ -265,7 +265,7 @@
             "name": "Application is open",
             "result": {
               "status": "passed",
-              "duration": 328756
+              "duration": 296337
             },
             "line": 128,
             "match": {
@@ -278,7 +278,7 @@
             "name": "I enter the perth and click on submit",
             "result": {
               "status": "passed",
-              "duration": 1110392
+              "duration": 2016203
             },
             "line": 129,
             "match": {
@@ -291,7 +291,7 @@
             "name": "I should get the five day whether forecast",
             "result": {
               "status": "passed",
-              "duration": 791902
+              "duration": 630192
             },
             "line": 130,
             "match": {
@@ -304,7 +304,7 @@
             "name": "I select a Wed and I will get hourly forecast",
             "result": {
               "status": "passed",
-              "duration": 2326518
+              "duration": 1595759
             },
             "line": 131,
             "match": {
@@ -317,7 +317,7 @@
             "name": "I hide the hourly forecast of the selected Wed",
             "result": {
               "status": "passed",
-              "duration": 607226
+              "duration": 442741
             },
             "line": 132,
             "match": {
@@ -349,7 +349,7 @@
             "name": "Application is open",
             "result": {
               "status": "passed",
-              "duration": 375920
+              "duration": 310928
             },
             "line": 128,
             "match": {
@@ -362,7 +362,7 @@
             "name": "I enter the stirling and click on submit",
             "result": {
               "status": "passed",
-              "duration": 1635378
+              "duration": 1143779
             },
             "line": 129,
             "match": {
@@ -375,7 +375,7 @@
             "name": "I should get the five day whether forecast",
             "result": {
               "status": "passed",
-              "duration": 4713310
+              "duration": 3325284
             },
             "line": 130,
             "match": {
@@ -388,7 +388,7 @@
             "name": "I select a Thu and I will get hourly forecast",
             "result": {
               "status": "passed",
-              "duration": 1323796
+              "duration": 814670
             },
             "line": 131,
             "match": {
@@ -401,7 +401,7 @@
             "name": "I hide the hourly forecast of the selected Thu",
             "result": {
               "status": "passed",
-              "duration": 766877
+              "duration": 342962
             },
             "line": 132,
             "match": {
@@ -433,7 +433,7 @@
             "name": "Application is open",
             "result": {
               "status": "passed",
-              "duration": 1152064
+              "duration": 329646
             },
             "line": 128,
             "match": {
@@ -446,7 +446,7 @@
             "name": "I enter the edinburgh and click on submit",
             "result": {
               "status": "passed",
-              "duration": 2293475
+              "duration": 1336554
             },
             "line": 129,
             "match": {
@@ -459,7 +459,7 @@
             "name": "I should get the five day whether forecast",
             "result": {
               "status": "passed",
-              "duration": 999899
+              "duration": 2831198
             },
             "line": 130,
             "match": {
@@ -472,7 +472,7 @@
             "name": "I select a Thu and I will get hourly forecast",
             "result": {
               "status": "passed",
-              "duration": 2542142
+              "duration": 1472083
             },
             "line": 131,
             "match": {
@@ -485,7 +485,7 @@
             "name": "I hide the hourly forecast of the selected Thu",
             "result": {
               "status": "passed",
-              "duration": 551858
+              "duration": 3082714
             },
             "line": 132,
             "match": {

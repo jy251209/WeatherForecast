@@ -49,6 +49,7 @@
     "mkdirp": "^0.5.1",
     "moment": "^2.24.0",
     "path": "^0.12.7",
+    "protractor-multiple-cucumber-html-reporter-plugin": "^1.8.1",
     "radium": "^0.18.1",
     "react": "^15.2.1",
     "react-dom": "^15.2.1",
