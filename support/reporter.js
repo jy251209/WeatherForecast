@@ -48,7 +48,7 @@ class Reporter {
 	}
 	
 	static createAllureXML() {
-			const allureReporter = require("cucumberjs-allure-reporter");
+		const allureReporter = require("cucumberjs-allure-reporter");
 		const xmlReports = process.cwd() + "/reports/xml";
 		Reporter.createDirectory(xmlReports);
 		allureReporter.config({

@@ -6,14 +6,6 @@ var WeatherForecastValidation = function () {
   var moment = require('moment');
 
 
-  this.get = function () {
-    browser.get('http://localhost:3000');
-  };
-
-  this.city = function (value) {
-    element(by.xpath("//input[@id='city']")).clear();
-  };
-
   this.setCityName = function (value) {
     element(by.xpath("//input[@id='city']")).sendKeys(value);
     element(by.xpath("//input[@id='city']")).sendKeys(protractor.Key.ENTER);
@@ -22,13 +14,15 @@ var WeatherForecastValidation = function () {
     element.all(by.xpath("//span[@class='name']")).getText().then(function (text) {
       console.log('Weather forecast of following days------', text,' has been displayed');
       expect(text.length).to.equal(5);
+      element(by.xpath("//h1[text()='Five Day Weather Forecast for']")).isDisplayed().then(function (boolean) {
+        expect(boolean).to.equal(true);
+      })
     })
   };
 
   this.hourlyforecast =  (value) =>{
-    console.log('value',value)
     element.all(by.xpath('//span[text()=\''+value+'\']/../../../div[2]/div/span/span[contains(@data-test,\'hour\')]')).getText().then(function (text) {
-      console.log('Hour details------', text);
+      console.log('Weather forecast displayed for the following hours ------', text);
       text.sort((a,b) => {
         let timeDifference = a-b;
         // console.log(moment(timeDifference, 'hmm').format('hh:mm'));
@@ -44,7 +38,6 @@ var WeatherForecastValidation = function () {
       let name = stringi.replace(/[^a-zA-Z0-9 ]/g, " ");
       let array = name.split("  ");
       array.map((data) => {
-
          remArray.push(parseInt(data.replace(/ +/g, "")));
       })
       remArray.sort((a,b) => {
@@ -54,13 +47,13 @@ var WeatherForecastValidation = function () {
       element.all(by.xpath('//span[text()=\''+value+'\']/../../../div[2]/div/span/span[contains(@data-test,\'maximum\')]/../../../../div[1]/span[3]/span[@class=\'rmq-5ea3c959 min\']')).getText().then(function (mintemp) {
         let tempMin = mintemp.toString()
         let tempMin_wo_SpecialCharacter = tempMin.replace(/[^a-zA-Z0-9 ]/g, "");
-        console.log('tempMin_wo_SpecialCharacter',tempMin_wo_SpecialCharacter)
+        // console.log('tempMin_wo_SpecialCharacter',tempMin_wo_SpecialCharacter)
         expect(tempMin_wo_SpecialCharacter).to.equal(remArray[0].toString())
       })
       element.all(by.xpath('//span[text()=\''+value+'\']/../../../div[2]/div/span/span[contains(@data-test,\'maximum\')]/../../../../div[1]/span[3]/span[@class=\'max\']')).getText().then(function (maxtemp) {
         let tempMax = maxtemp.toString()
         let tempMax_wo_SpecialCharacter = tempMax.replace(/[^a-zA-Z0-9 ]/g, "");
-        console.log('tempMax_wo_SpecialCharacter',tempMax_wo_SpecialCharacter)
+        // console.log('tempMax_wo_SpecialCharacter',tempMax_wo_SpecialCharacter)
         expect(tempMax_wo_SpecialCharacter).to.equal(remArray[remArray.length-1].toString())
       })
       console.log('Temperature details for the day ',text);
@@ -75,14 +68,13 @@ var WeatherForecastValidation = function () {
       let name = stringi.replace(/[^a-zA-Z0-9 ]/g, "");
       let new_array = name.split("mm");
       new_array.pop()
-      console.log(new_array)
+      // console.log(new_array)
       let count=0;
       new_array.map((data) => {
         count = count+parseInt(data)
       })
       console.log('Aggregate Rainfall is ',Math.round(count))
       element.all(by.xpath('//span[text()=\''+value+'\']/../../../div[2]/div/span/span[contains(@data-test,\'rainfall\')]/../../../../div[1]/span[5]/span[@class=\'rainfall\']')).getText().then(function (aggregate) {
-        // console.log('aggregate expext',aggregate)
         expect(aggregate.toString()).to.equal(count.toString().concat('mm'))
       })
     })
@@ -120,7 +112,6 @@ var WeatherForecastValidation = function () {
           console.log('The selected day weather conditions ',arr)
           console.log('The selected day is a ',popArray,' day')
           element.all(by.xpath('//span[text()=\''+value+'\']/../../../div[2]/div/span[2]/*[local-name() = "svg"]/../../../../div/span[2]/*[local-name() = "svg"]')).getAttribute('aria-label').then(function (dominantcondition) {
-            // console.log('aggregate expext',aggregate)
             expect(dominantcondition.toString()).to.equal(popArray.toString())
           })
         })

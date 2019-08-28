@@ -22,26 +22,47 @@ var WeatherFunctions = function () {
   })
 
   this.Given(/^I should get the five day whether forecast$/, function () {
+    browser.findElement(by.xpath("//h1[text()='Five Day Weather Forecast for']")).isDisplayed().then(function (boolean) {
+              expect(boolean).to.equal(true)
+            })
     stepPage.weatherforecast();
+  })
+
+  this.Given(/^I validate displayed forecast of the selected (.*) is in 3 hourly format$/, function (day) {
+    stepPage.hourlyforecast(day)
+  })
+  this.Given(/^I validate the Minimum and maximum temperature of the selected (.*)$/, function (day) {
+    stepPage.MinMaxtemp(day)
+  })
+  this.Given(/^I validate the aggregate rainfall of the selected (.*)$/, function (day) {
+    stepPage.aggrgtRainfall(day)
+  })
+  this.Given(/^I validate the dominant condition of the selected (.*)$/, function (day) {
+    stepPage.dominantCondition(day)
+  })
+  this.Given(/^I validate the wind speed of the selected (.*)$/, function (day) {
+    stepPage.WindSpeed(day)
   })
   this.Given(/^I select a (.*) and I will get hourly forecast$/, function (day) {
     console.log('day is',day)
     browser.findElement(by.xpath('//span[text()=\''+day+'\']')).click();
     browser.sleep(2000)
-    stepPage.hourlyforecast(day)
-    stepPage.MinMaxtemp(day)
-    stepPage.aggrgtRainfall(day)
-    stepPage.dominantCondition(day)
-    stepPage.WindSpeed(day)
+
+    browser.findElement(by.xpath('//span[text()=\''+day+'\']/../../../div[2]')).isDisplayed().then(function (boolean) {
+      expect(boolean).to.equal(true)
+    })
+    // stepPage.hourlyforecast(day)
+    // stepPage.MinMaxtemp(day)
+    // stepPage.aggrgtRainfall(day)
+    // stepPage.dominantCondition(day)
+    // stepPage.WindSpeed(day)
 //     browser.pause()
   })
 
   this.Given(/^I hide the hourly forecast of the selected (.*)$/, function (day) {
 
     browser.findElement(by.xpath('//span[text()=\''+day+'\']/../../../div[2]')).isDisplayed().then(function (bool) {
-      console.log('bool',bool)
       if(bool){
-        console.log('enter')
         browser.findElement(by.xpath('//span[text()=\''+day+'\']')).click();
         browser.sleep(2000)
         browser.findElement(by.xpath('//span[text()=\''+day+'\']/../../../div[2]')).isDisplayed().then(function (boolean) {

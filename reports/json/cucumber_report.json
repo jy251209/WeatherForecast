@@ -4,7 +4,7 @@
       {
         "id": "verify-the-functionality-of-weather-forecasting-application;verify-that-the-user-is-able-to-retrieve-hourly-forecast-of-a-day",
         "keyword": "Scenario",
-        "line": 22,
+        "line": 29,
         "name": "Verify that the user is able to retrieve hourly forecast of a day",
         "steps": [
           {
@@ -13,9 +13,9 @@
             "name": "Application is open",
             "result": {
               "status": "passed",
-              "duration": 693945903
+              "duration": 2903632434
             },
-            "line": 14,
+            "line": 21,
             "match": {
               "location": "/Users/jyothishputhanpurachiraa/Documents/WebEx/protractor-cucumber-example-master/features/steps/steps.js:11"
             }
@@ -26,9 +26,9 @@
             "name": "I enter the aberdeen and click on submit",
             "result": {
               "status": "passed",
-              "duration": 2598023
+              "duration": 2850419
             },
-            "line": 15,
+            "line": 22,
             "match": {
               "location": "/Users/jyothishputhanpurachiraa/Documents/WebEx/protractor-cucumber-example-master/features/steps/steps.js:18"
             }
@@ -39,9 +39,9 @@
             "name": "I should get the five day whether forecast",
             "result": {
               "status": "passed",
-              "duration": 556267
+              "duration": 848346
             },
-            "line": 16,
+            "line": 23,
             "match": {
               "location": "/Users/jyothishputhanpurachiraa/Documents/WebEx/protractor-cucumber-example-master/features/steps/steps.js:24"
             }
@@ -52,15 +52,379 @@
             "name": "I select a Wed and I will get hourly forecast",
             "result": {
               "status": "passed",
-              "duration": 1673450
+              "duration": 973669
             },
-            "line": 17,
+            "line": 24,
             "match": {
-              "location": "/Users/jyothishputhanpurachiraa/Documents/WebEx/protractor-cucumber-example-master/features/steps/steps.js:29"
+              "location": "/Users/jyothishputhanpurachiraa/Documents/WebEx/protractor-cucumber-example-master/features/steps/steps.js:46"
             }
           }
         ],
-        "tags": [],
+        "tags": [
+          {
+            "name": "@all",
+            "line": 19
+          },
+          {
+            "name": "@weather-02",
+            "line": 19
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "verify-the-functionality-of-weather-forecasting-application;verify-that-the-user-is-able-to-retrieve-hourly-forecast-of-a-day",
+        "keyword": "Scenario",
+        "line": 30,
+        "name": "Verify that the user is able to retrieve hourly forecast of a day",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Application is open",
+            "result": {
+              "status": "passed",
+              "duration": 2913053483
+            },
+            "line": 21,
+            "match": {
+              "location": "/Users/jyothishputhanpurachiraa/Documents/WebEx/protractor-cucumber-example-master/features/steps/steps.js:11"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter the dundee and click on submit",
+            "result": {
+              "status": "passed",
+              "duration": 853433
+            },
+            "line": 22,
+            "match": {
+              "location": "/Users/jyothishputhanpurachiraa/Documents/WebEx/protractor-cucumber-example-master/features/steps/steps.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get the five day whether forecast",
+            "result": {
+              "status": "passed",
+              "duration": 488988
+            },
+            "line": 23,
+            "match": {
+              "location": "/Users/jyothishputhanpurachiraa/Documents/WebEx/protractor-cucumber-example-master/features/steps/steps.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I select a Sat and I will get hourly forecast",
+            "result": {
+              "status": "passed",
+              "duration": 562063
+            },
+            "line": 24,
+            "match": {
+              "location": "/Users/jyothishputhanpurachiraa/Documents/WebEx/protractor-cucumber-example-master/features/steps/steps.js:46"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@all",
+            "line": 19
+          },
+          {
+            "name": "@weather-02",
+            "line": 19
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "verify-the-functionality-of-weather-forecasting-application;verify-that-the-user-is-able-to-retrieve-hourly-forecast-of-a-day",
+        "keyword": "Scenario",
+        "line": 31,
+        "name": "Verify that the user is able to retrieve hourly forecast of a day",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Application is open",
+            "result": {
+              "status": "passed",
+              "duration": 2823715391
+            },
+            "line": 21,
+            "match": {
+              "location": "/Users/jyothishputhanpurachiraa/Documents/WebEx/protractor-cucumber-example-master/features/steps/steps.js:11"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter the Glasgow and click on submit",
+            "result": {
+              "status": "passed",
+              "duration": 1826966
+            },
+            "line": 22,
+            "match": {
+              "location": "/Users/jyothishputhanpurachiraa/Documents/WebEx/protractor-cucumber-example-master/features/steps/steps.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get the five day whether forecast",
+            "result": {
+              "status": "passed",
+              "duration": 289271
+            },
+            "line": 23,
+            "match": {
+              "location": "/Users/jyothishputhanpurachiraa/Documents/WebEx/protractor-cucumber-example-master/features/steps/steps.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I select a Tue and I will get hourly forecast",
+            "result": {
+              "status": "passed",
+              "duration": 380744
+            },
+            "line": 24,
+            "match": {
+              "location": "/Users/jyothishputhanpurachiraa/Documents/WebEx/protractor-cucumber-example-master/features/steps/steps.js:46"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@all",
+            "line": 19
+          },
+          {
+            "name": "@weather-02",
+            "line": 19
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "verify-the-functionality-of-weather-forecasting-application;verify-that-the-user-is-able-to-retrieve-hourly-forecast-of-a-day",
+        "keyword": "Scenario",
+        "line": 32,
+        "name": "Verify that the user is able to retrieve hourly forecast of a day",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Application is open",
+            "result": {
+              "status": "passed",
+              "duration": 2778422308
+            },
+            "line": 21,
+            "match": {
+              "location": "/Users/jyothishputhanpurachiraa/Documents/WebEx/protractor-cucumber-example-master/features/steps/steps.js:11"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter the perth and click on submit",
+            "result": {
+              "status": "passed",
+              "duration": 412561
+            },
+            "line": 22,
+            "match": {
+              "location": "/Users/jyothishputhanpurachiraa/Documents/WebEx/protractor-cucumber-example-master/features/steps/steps.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get the five day whether forecast",
+            "result": {
+              "status": "passed",
+              "duration": 254910
+            },
+            "line": 23,
+            "match": {
+              "location": "/Users/jyothishputhanpurachiraa/Documents/WebEx/protractor-cucumber-example-master/features/steps/steps.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I select a Wed and I will get hourly forecast",
+            "result": {
+              "status": "passed",
+              "duration": 381923
+            },
+            "line": 24,
+            "match": {
+              "location": "/Users/jyothishputhanpurachiraa/Documents/WebEx/protractor-cucumber-example-master/features/steps/steps.js:46"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@all",
+            "line": 19
+          },
+          {
+            "name": "@weather-02",
+            "line": 19
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "verify-the-functionality-of-weather-forecasting-application;verify-that-the-user-is-able-to-retrieve-hourly-forecast-of-a-day",
+        "keyword": "Scenario",
+        "line": 33,
+        "name": "Verify that the user is able to retrieve hourly forecast of a day",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Application is open",
+            "result": {
+              "status": "passed",
+              "duration": 2746109973
+            },
+            "line": 21,
+            "match": {
+              "location": "/Users/jyothishputhanpurachiraa/Documents/WebEx/protractor-cucumber-example-master/features/steps/steps.js:11"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter the stirling and click on submit",
+            "result": {
+              "status": "passed",
+              "duration": 594849
+            },
+            "line": 22,
+            "match": {
+              "location": "/Users/jyothishputhanpurachiraa/Documents/WebEx/protractor-cucumber-example-master/features/steps/steps.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get the five day whether forecast",
+            "result": {
+              "status": "passed",
+              "duration": 347528
+            },
+            "line": 23,
+            "match": {
+              "location": "/Users/jyothishputhanpurachiraa/Documents/WebEx/protractor-cucumber-example-master/features/steps/steps.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I select a Thu and I will get hourly forecast",
+            "result": {
+              "status": "passed",
+              "duration": 607022
+            },
+            "line": 24,
+            "match": {
+              "location": "/Users/jyothishputhanpurachiraa/Documents/WebEx/protractor-cucumber-example-master/features/steps/steps.js:46"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@all",
+            "line": 19
+          },
+          {
+            "name": "@weather-02",
+            "line": 19
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "verify-the-functionality-of-weather-forecasting-application;verify-that-the-user-is-able-to-retrieve-hourly-forecast-of-a-day",
+        "keyword": "Scenario",
+        "line": 34,
+        "name": "Verify that the user is able to retrieve hourly forecast of a day",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Application is open",
+            "result": {
+              "status": "passed",
+              "duration": 2843712889
+            },
+            "line": 21,
+            "match": {
+              "location": "/Users/jyothishputhanpurachiraa/Documents/WebEx/protractor-cucumber-example-master/features/steps/steps.js:11"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter the edinburgh and click on submit",
+            "result": {
+              "status": "passed",
+              "duration": 823096
+            },
+            "line": 22,
+            "match": {
+              "location": "/Users/jyothishputhanpurachiraa/Documents/WebEx/protractor-cucumber-example-master/features/steps/steps.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get the five day whether forecast",
+            "result": {
+              "status": "passed",
+              "duration": 531023
+            },
+            "line": 23,
+            "match": {
+              "location": "/Users/jyothishputhanpurachiraa/Documents/WebEx/protractor-cucumber-example-master/features/steps/steps.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I select a Thu and I will get hourly forecast",
+            "result": {
+              "status": "passed",
+              "duration": 563223
+            },
+            "line": 24,
+            "match": {
+              "location": "/Users/jyothishputhanpurachiraa/Documents/WebEx/protractor-cucumber-example-master/features/steps/steps.js:46"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@all",
+            "line": 19
+          },
+          {
+            "name": "@weather-02",
+            "line": 19
+          }
+        ],
         "type": "scenario"
       }
     ],

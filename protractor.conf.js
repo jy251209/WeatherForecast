@@ -12,11 +12,23 @@ exports.config = {
     //'features/*.feature'
 	'features/weatherForecast.feature'
   ],
+
+    // multiCapabilities: [{
+    //     'browserName': 'firefox'
+    // }, {
+    //     'browserName': 'chrome'
+    // }],
+    // capabilities: {
+    //     'browserName': 'firefox',
+    //     'moz:firefoxOptions': {
+    //         'args': ['--safe-mode']
+    //     }
+    // },
   cucumberOpts: {
     require: ['env.js','features/steps/steps.js'],
-    // format: 'json:./reports/json/cucumber_report.json',
+      tags: '@weather-02',
+    format: 'json:./reports/json/cucumber_report.json',
 	dryRun: false,
-	
   },
   onPrepare: function(){
 	  browser.manage().timeouts().pageLoadTimeout(40000);
@@ -25,7 +37,6 @@ exports.config = {
 	  
   },
   onComplete: function(){
-      console.log('test')
 	  Reporter.createHTMLReport();
   },
   allScriptsTimeout: 1000000
