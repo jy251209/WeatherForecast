@@ -18,22 +18,19 @@ exports.config = {
     // }, {
     //     'browserName': 'chrome'
     // }],
-    // capabilities: {
-    //     'browserName': 'firefox',
-    //     'moz:firefoxOptions': {
-    //         'args': ['--safe-mode']
-    //     }
-    // },
+    capabilities: {
+        'browserName': 'chrome',
+    },
   cucumberOpts: {
     require: ['env.js','features/steps/steps.js'],
-      tags: '@weather-02',
+      tags: '@weather-08',
     format: 'json:./reports/json/cucumber_report.json',
 	dryRun: false,
   },
   onPrepare: function(){
 	  browser.manage().timeouts().pageLoadTimeout(40000);
 	  browser.manage().timeouts().implicitlyWait(25000);
-	  // Reporter.createDirectory(jsonReports);
+	  Reporter.createDirectory(jsonReports);
 	  
   },
   onComplete: function(){

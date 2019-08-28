@@ -4,6 +4,7 @@ const path = require("path");
 const report = require("cucumber-html-report");
 const reporter = require("cucumber-html-reporter");
 const htmlReports = process.cwd() + "/reports/html";
+var d = new Date();
 const targetJson = process.cwd() + "/reports/json/cucumber_report.json";
 
 const cucumberReportOptions = {

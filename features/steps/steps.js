@@ -5,13 +5,12 @@ var sel = require('selenium-webdriver')
 var WeatherFunctions = function () {
 
   var step_page = require(process.cwd()+'/features/pages/Weather_Forecast.js')
-  // var step_page = require("/Users/jyothishputhanpurachiraa/Documents/WebEx/protractor-cucumber-example-master/features/pages/Weather_Forecast.js")
   var stepPage = new step_page();
 
-  this.Given('Application is open', function (callback) {
+  this.Given('Application is open', function () {
     browser.ignoreSynchronization = true;
     browser.get('http://localhost:3000').then(function () {
-      callback();
+      // callback();
     });
   });
 
@@ -45,9 +44,10 @@ var WeatherFunctions = function () {
   })
   this.Given(/^I select a (.*) and I will get hourly forecast$/, function (day) {
     console.log('day is',day)
+    let d = new Date();
+    console.log('time ',d.getTime())
     browser.findElement(by.xpath('//span[text()=\''+day+'\']')).click();
     browser.sleep(2000)
-
     browser.findElement(by.xpath('//span[text()=\''+day+'\']/../../../div[2]')).isDisplayed().then(function (boolean) {
       expect(boolean).to.equal(true)
     })

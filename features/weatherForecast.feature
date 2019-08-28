@@ -27,11 +27,11 @@ Feature: Verify the functionality of weather forecasting application
 
       | City name | Day |
       | aberdeen  | Wed |
-      | dundee    | Sat |
-      | Glasgow   | Tue |
-      | perth     | Wed |
-      | stirling  | Thu |
-      | edinburgh | Thu |
+#      | dundee    | Sat |
+#      | Glasgow   | Tue |
+#      | perth     | Wed |
+#      | stirling  | Thu |
+#      | edinburgh | Thu |
 
   @all @weather-03
   Scenario Outline: Verify the weather forecast displayed is in 3 hour format
@@ -173,10 +173,10 @@ Feature: Verify the functionality of weather forecasting application
     Examples:
 
       | City name | Error Message Text             |
-#      | abcd      | Error retrieving the forecast  |
-#      | 1234      | Error retrieving the forecast  |
-#      | !@££$%    | Error retrieving the forecast  |
-#      | ab@£#12    | Error retrieving the forecast  |
+      | abcd      | Error retrieving the forecast  |
+      | 1234      | Error retrieving the forecast  |
+      | !@££$%    | Error retrieving the forecast  |
+      | ab@£#12   | Error retrieving the forecast  |
 
   @all @weather-11
   Scenario Outline: Verify that the user is getting error message when submitting without entering any input
