@@ -1,8 +1,5 @@
 cucumberOpts: {
-    require: [
-        '/env.js',
-        'features/steps/steps.js', 'Support/*.js'
-    ],
-        format: 'pretty', // or summary
+    require: ['/env.js', 'features/steps/steps.js', 'Support/*.js'],
+        format: 'json', // or summary
             keepAlive: false
 }

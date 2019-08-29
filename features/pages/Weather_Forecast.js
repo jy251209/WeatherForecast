@@ -97,7 +97,7 @@ var WeatherForecastValidation = function () {
       Math.round(mode(new_array))
       console.log('Most Dominant wind speed --> ',mode(new_array).toString().concat('kph'))
       element.all(by.xpath('//span[text()=\''+value+'\']/../../../div[2]/div/span/span[contains(@data-test,\'speed\')]/../../../../div/span[4]/span[1][@class=\'speed\']')).getText().then(function (dominantwind) {
-        // expect(dominantwind.toString()).to.equal(mode(new_array).toString().concat('kph'))
+        expect(dominantwind.toString()).to.equal(mode(new_array).toString().concat('kph'))
       })
     })
   };

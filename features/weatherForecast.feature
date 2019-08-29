@@ -27,11 +27,11 @@ Feature: Verify the functionality of weather forecasting application
 
       | City name | Day |
       | aberdeen  | Wed |
-#      | dundee    | Sat |
-#      | Glasgow   | Tue |
-#      | perth     | Wed |
-#      | stirling  | Thu |
-#      | edinburgh | Thu |
+      | dundee    | Sat |
+      | Glasgow   | Tue |
+      | perth     | Wed |
+      | stirling  | Thu |
+      | edinburgh | Thu |
 
   @all @weather-03
   Scenario Outline: Verify the weather forecast displayed is in 3 hour format

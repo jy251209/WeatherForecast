@@ -53,7 +53,7 @@ class Reporter {
 		const xmlReports = process.cwd() + "/reports/xml";
 		Reporter.createDirectory(xmlReports);
 		allureReporter.config({
-			targetDir: xmlReports
+			targetDir: xmlReports+"/test.xml"
 		})
 	}
 }
