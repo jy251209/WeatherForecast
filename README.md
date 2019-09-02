@@ -40,5 +40,5 @@ This command will execute all the scenarios inside the feature file
 All the scenarios can be executed in chrome and firefox browser. You can change it inside protractor.conf.js file
 ```
 
-##Due to time constraint could not include some of the below scenarios
+##Due to time constraint could not include the below scenarios
 Unit of the measurements of the parameters wind, temperature is of a valid format

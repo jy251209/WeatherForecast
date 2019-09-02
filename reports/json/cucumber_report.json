@@ -1,0 +1,516 @@
+[
+  {
+    "elements": [
+      {
+        "id": "verify-the-functionality-of-weather-forecasting-application;verify-the-default-city-name-is-displayed-when-refreshing-the-page",
+        "keyword": "Scenario",
+        "line": 225,
+        "name": "Verify the default city name is displayed when refreshing the page",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Application is open",
+            "result": {
+              "status": "passed",
+              "duration": 766102013
+            },
+            "line": 216,
+            "match": {
+              "location": "/Users/jyothishputhanpurachiraa/Documents/WebEx/protractor-cucumber-example-master/features/steps/steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter the aberdeen and click on submit",
+            "result": {
+              "status": "passed",
+              "duration": 2793961
+            },
+            "line": 217,
+            "match": {
+              "location": "/Users/jyothishputhanpurachiraa/Documents/WebEx/protractor-cucumber-example-master/features/steps/steps.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get the five day whether forecast",
+            "result": {
+              "status": "passed",
+              "duration": 1033692
+            },
+            "line": 218,
+            "match": {
+              "location": "/Users/jyothishputhanpurachiraa/Documents/WebEx/protractor-cucumber-example-master/features/steps/steps.js:29"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I refresh the page",
+            "result": {
+              "status": "passed",
+              "duration": 508982
+            },
+            "line": 219,
+            "match": {
+              "location": "/Users/jyothishputhanpurachiraa/Documents/WebEx/protractor-cucumber-example-master/features/steps/steps.js:96"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get the default city name in input search field",
+            "result": {
+              "status": "passed",
+              "duration": 620620
+            },
+            "line": 220,
+            "match": {
+              "location": "/Users/jyothishputhanpurachiraa/Documents/WebEx/protractor-cucumber-example-master/features/steps/steps.js:99"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@all",
+            "line": 214
+          },
+          {
+            "name": "@weather-12",
+            "line": 214
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "verify-the-functionality-of-weather-forecasting-application;verify-the-default-city-name-is-displayed-when-refreshing-the-page",
+        "keyword": "Scenario",
+        "line": 226,
+        "name": "Verify the default city name is displayed when refreshing the page",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Application is open",
+            "result": {
+              "status": "passed",
+              "duration": 1009146956
+            },
+            "line": 216,
+            "match": {
+              "location": "/Users/jyothishputhanpurachiraa/Documents/WebEx/protractor-cucumber-example-master/features/steps/steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter the dundee and click on submit",
+            "result": {
+              "status": "passed",
+              "duration": 895380
+            },
+            "line": 217,
+            "match": {
+              "location": "/Users/jyothishputhanpurachiraa/Documents/WebEx/protractor-cucumber-example-master/features/steps/steps.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get the five day whether forecast",
+            "result": {
+              "status": "passed",
+              "duration": 297145
+            },
+            "line": 218,
+            "match": {
+              "location": "/Users/jyothishputhanpurachiraa/Documents/WebEx/protractor-cucumber-example-master/features/steps/steps.js:29"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I refresh the page",
+            "result": {
+              "status": "passed",
+              "duration": 232498
+            },
+            "line": 219,
+            "match": {
+              "location": "/Users/jyothishputhanpurachiraa/Documents/WebEx/protractor-cucumber-example-master/features/steps/steps.js:96"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get the default city name in input search field",
+            "result": {
+              "status": "passed",
+              "duration": 201270
+            },
+            "line": 220,
+            "match": {
+              "location": "/Users/jyothishputhanpurachiraa/Documents/WebEx/protractor-cucumber-example-master/features/steps/steps.js:99"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@all",
+            "line": 214
+          },
+          {
+            "name": "@weather-12",
+            "line": 214
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "verify-the-functionality-of-weather-forecasting-application;verify-the-default-city-name-is-displayed-when-refreshing-the-page",
+        "keyword": "Scenario",
+        "line": 227,
+        "name": "Verify the default city name is displayed when refreshing the page",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Application is open",
+            "result": {
+              "status": "passed",
+              "duration": 842233299
+            },
+            "line": 216,
+            "match": {
+              "location": "/Users/jyothishputhanpurachiraa/Documents/WebEx/protractor-cucumber-example-master/features/steps/steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter the Glasgow and click on submit",
+            "result": {
+              "status": "passed",
+              "duration": 703338
+            },
+            "line": 217,
+            "match": {
+              "location": "/Users/jyothishputhanpurachiraa/Documents/WebEx/protractor-cucumber-example-master/features/steps/steps.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get the five day whether forecast",
+            "result": {
+              "status": "passed",
+              "duration": 253445
+            },
+            "line": 218,
+            "match": {
+              "location": "/Users/jyothishputhanpurachiraa/Documents/WebEx/protractor-cucumber-example-master/features/steps/steps.js:29"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I refresh the page",
+            "result": {
+              "status": "passed",
+              "duration": 107919
+            },
+            "line": 219,
+            "match": {
+              "location": "/Users/jyothishputhanpurachiraa/Documents/WebEx/protractor-cucumber-example-master/features/steps/steps.js:96"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get the default city name in input search field",
+            "result": {
+              "status": "passed",
+              "duration": 376712
+            },
+            "line": 220,
+            "match": {
+              "location": "/Users/jyothishputhanpurachiraa/Documents/WebEx/protractor-cucumber-example-master/features/steps/steps.js:99"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@all",
+            "line": 214
+          },
+          {
+            "name": "@weather-12",
+            "line": 214
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "verify-the-functionality-of-weather-forecasting-application;verify-the-default-city-name-is-displayed-when-refreshing-the-page",
+        "keyword": "Scenario",
+        "line": 228,
+        "name": "Verify the default city name is displayed when refreshing the page",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Application is open",
+            "result": {
+              "status": "passed",
+              "duration": 800916263
+            },
+            "line": 216,
+            "match": {
+              "location": "/Users/jyothishputhanpurachiraa/Documents/WebEx/protractor-cucumber-example-master/features/steps/steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter the perth and click on submit",
+            "result": {
+              "status": "passed",
+              "duration": 828430
+            },
+            "line": 217,
+            "match": {
+              "location": "/Users/jyothishputhanpurachiraa/Documents/WebEx/protractor-cucumber-example-master/features/steps/steps.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get the five day whether forecast",
+            "result": {
+              "status": "passed",
+              "duration": 302180
+            },
+            "line": 218,
+            "match": {
+              "location": "/Users/jyothishputhanpurachiraa/Documents/WebEx/protractor-cucumber-example-master/features/steps/steps.js:29"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I refresh the page",
+            "result": {
+              "status": "passed",
+              "duration": 107257
+            },
+            "line": 219,
+            "match": {
+              "location": "/Users/jyothishputhanpurachiraa/Documents/WebEx/protractor-cucumber-example-master/features/steps/steps.js:96"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get the default city name in input search field",
+            "result": {
+              "status": "passed",
+              "duration": 161056
+            },
+            "line": 220,
+            "match": {
+              "location": "/Users/jyothishputhanpurachiraa/Documents/WebEx/protractor-cucumber-example-master/features/steps/steps.js:99"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@all",
+            "line": 214
+          },
+          {
+            "name": "@weather-12",
+            "line": 214
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "verify-the-functionality-of-weather-forecasting-application;verify-the-default-city-name-is-displayed-when-refreshing-the-page",
+        "keyword": "Scenario",
+        "line": 229,
+        "name": "Verify the default city name is displayed when refreshing the page",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Application is open",
+            "result": {
+              "status": "passed",
+              "duration": 805993286
+            },
+            "line": 216,
+            "match": {
+              "location": "/Users/jyothishputhanpurachiraa/Documents/WebEx/protractor-cucumber-example-master/features/steps/steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter the stirling and click on submit",
+            "result": {
+              "status": "passed",
+              "duration": 1315356
+            },
+            "line": 217,
+            "match": {
+              "location": "/Users/jyothishputhanpurachiraa/Documents/WebEx/protractor-cucumber-example-master/features/steps/steps.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get the five day whether forecast",
+            "result": {
+              "status": "passed",
+              "duration": 1701810
+            },
+            "line": 218,
+            "match": {
+              "location": "/Users/jyothishputhanpurachiraa/Documents/WebEx/protractor-cucumber-example-master/features/steps/steps.js:29"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I refresh the page",
+            "result": {
+              "status": "passed",
+              "duration": 129192
+            },
+            "line": 219,
+            "match": {
+              "location": "/Users/jyothishputhanpurachiraa/Documents/WebEx/protractor-cucumber-example-master/features/steps/steps.js:96"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get the default city name in input search field",
+            "result": {
+              "status": "passed",
+              "duration": 406915
+            },
+            "line": 220,
+            "match": {
+              "location": "/Users/jyothishputhanpurachiraa/Documents/WebEx/protractor-cucumber-example-master/features/steps/steps.js:99"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@all",
+            "line": 214
+          },
+          {
+            "name": "@weather-12",
+            "line": 214
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "verify-the-functionality-of-weather-forecasting-application;verify-the-default-city-name-is-displayed-when-refreshing-the-page",
+        "keyword": "Scenario",
+        "line": 230,
+        "name": "Verify the default city name is displayed when refreshing the page",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Application is open",
+            "result": {
+              "status": "passed",
+              "duration": 864882930
+            },
+            "line": 216,
+            "match": {
+              "location": "/Users/jyothishputhanpurachiraa/Documents/WebEx/protractor-cucumber-example-master/features/steps/steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter the edinburgh and click on submit",
+            "result": {
+              "status": "passed",
+              "duration": 1059118
+            },
+            "line": 217,
+            "match": {
+              "location": "/Users/jyothishputhanpurachiraa/Documents/WebEx/protractor-cucumber-example-master/features/steps/steps.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get the five day whether forecast",
+            "result": {
+              "status": "passed",
+              "duration": 375874
+            },
+            "line": 218,
+            "match": {
+              "location": "/Users/jyothishputhanpurachiraa/Documents/WebEx/protractor-cucumber-example-master/features/steps/steps.js:29"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I refresh the page",
+            "result": {
+              "status": "passed",
+              "duration": 80024
+            },
+            "line": 219,
+            "match": {
+              "location": "/Users/jyothishputhanpurachiraa/Documents/WebEx/protractor-cucumber-example-master/features/steps/steps.js:96"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get the default city name in input search field",
+            "result": {
+              "status": "passed",
+              "duration": 124136
+            },
+            "line": 220,
+            "match": {
+              "location": "/Users/jyothishputhanpurachiraa/Documents/WebEx/protractor-cucumber-example-master/features/steps/steps.js:99"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@all",
+            "line": 214
+          },
+          {
+            "name": "@weather-12",
+            "line": 214
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "verify-the-functionality-of-weather-forecasting-application",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Verify the functionality of weather forecasting application",
+    "tags": [],
+    "uri": "/Users/jyothishputhanpurachiraa/Documents/WebEx/protractor-cucumber-example-master/features/weatherForecast.feature"
+  }
+]

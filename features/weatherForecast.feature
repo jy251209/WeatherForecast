@@ -123,6 +123,23 @@ Feature: Verify the functionality of weather forecasting application
       | stirling  | Thu |
       | edinburgh | Thu |
 
+  @all @weather-077
+  Scenario Outline: Verifying wind direction of the selected day is updated correctly
+    Given Application is open
+    When I enter the <City name> and click on submit
+    Then I should get the five day whether forecast
+    Then I select a <Day> and I will get hourly forecast
+    Then I validate the current wind direction of the selected <Day>
+    Examples:
+
+      | City name | Day |
+      | aberdeen  | Wed |
+      | dundee    | Sat |
+      | Glasgow   | Tue |
+      | perth     | Wed |
+      | stirling  | Thu |
+      | edinburgh | Thu |
+
   @all @weather-08
   Scenario Outline: Verify that the user is able to hide hourly forecast of a day
     Given Application is open
@@ -179,6 +196,40 @@ Feature: Verify the functionality of weather forecasting application
       | ab@£#12   | Error retrieving the forecast  |
 
   @all @weather-11
+  Scenario Outline: Verify that the input city name field is not case sensitive
+    Given Application is open
+    When I enter the <City name> in upper case then click on submit
+    Then I should get the five day whether forecast
+
+    Examples:
+
+      | City name |
+      | aberdeen  |
+      | dundee    |
+      | Glasgow   |
+      | perth     |
+      | stirling  |
+      | edinburgh |
+
+  @all @weather-12
+  Scenario Outline: Verify the default city name is displayed when refreshing the page
+    Given Application is open
+    When I enter the <City name> and click on submit
+    Then I should get the five day whether forecast
+    Then I refresh the page
+    Then I should get the default city name in input search field
+
+    Examples:
+
+      | City name |
+      | aberdeen  |
+      | dundee    |
+      | Glasgow   |
+      | perth     |
+      | stirling  |
+      | edinburgh |
+
+  @all @weather-13
   Scenario Outline: Verify that the user is getting error message when submitting without entering any input
     Given Application is open
     When I submit without entering any input

@@ -102,6 +102,20 @@ var WeatherForecastValidation = function () {
     })
   };
 
+  this.WindDirection = (value) => {
+    element(by.xpath('//span[text()=\''+value+'\']/../../../div[2]/div/span/span[contains(@data-test,\'speed\')]/../../../../div/span[4]/span[@class=\'rmq-5ea3c959 direction\']/*')).getAttribute('style').then(function (style) {
+      let rotate = 'rotate';
+      let MeasurementInDegree = style.substring(style.indexOf(rotate)+rotate.length+1,style.length-2)
+      console.log('MeasurementInDegree ',MeasurementInDegree)
+        element(by.xpath('(//span[text()=\''+value+'\']/../../../div[2]/div/span/span[contains(@data-test,\'direction\')]/*)[1]')).getAttribute('style').then(function (style) {
+          let child = 'rotate'
+          let MeasurementInDegreeChild = style.substring(style.indexOf(child)+child.length+1,style.length-2)
+          console.log('MeasurementInDegreeChild ',MeasurementInDegreeChild)
+          expect(MeasurementInDegree).to.equal(MeasurementInDegreeChild)
+        })
+    })
+  }
+
   this.dominantCondition = (value) => {
     element.all(by.xpath('//span[text()=\''+value+'\']/../../../div[2]/div/span[2]/*[local-name() = "svg"]')).getAttribute('aria-label')
         .then((arr) => {
