@@ -18,30 +18,29 @@ var WeatherFunctions = function () {
     browser.findElement(by.xpath("//input[@id='city']")).clear();
     browser.findElement(by.xpath("//input[@id='city']")).sendKeys(city);
     browser.findElement(by.xpath("//input[@id='city']")).sendKeys(protractor.Key.ENTER);
-    return browser
   })
 
   this.Given(/^I should get the five day whether forecast$/, function () {
     browser.findElement(by.xpath("//h1[text()='Five Day Weather Forecast for']")).isDisplayed().then(function (boolean) {
               expect(boolean).to.equal(true)
             })
-    return stepPage.weatherforecast();
+    stepPage.weatherforecast();
   })
 
   this.Given(/^I validate displayed forecast of the selected (.*) is in 3 hourly format$/, function (day) {
-    return stepPage.hourlyforecast(day)
+    stepPage.hourlyforecast(day)
   })
   this.Given(/^I validate the Minimum and maximum temperature of the selected (.*)$/, function (day) {
-    return stepPage.MinMaxtemp(day)
+    stepPage.MinMaxtemp(day)
   })
   this.Given(/^I validate the aggregate rainfall of the selected (.*)$/, function (day) {
-    return stepPage.aggrgtRainfall(day)
+    stepPage.aggrgtRainfall(day)
   })
   this.Given(/^I validate the dominant condition of the selected (.*)$/, function (day) {
-    return stepPage.dominantCondition(day)
+    stepPage.dominantCondition(day)
   })
   this.Given(/^I validate the wind speed of the selected (.*)$/, function (day) {
-    return stepPage.WindSpeed(day)
+    stepPage.WindSpeed(day)
   })
   this.Given(/^I select a (.*) and I will get hourly forecast$/, function (day) {
     console.log('day is',day)
@@ -49,7 +48,7 @@ var WeatherFunctions = function () {
     console.log('time ',d.getTime())
     browser.findElement(by.xpath('//span[text()=\''+day+'\']')).click();
     browser.sleep(2000)
-    return browser.findElement(by.xpath('//span[text()=\''+day+'\']/../../../div[2]')).isDisplayed().then(function (boolean) {
+    browser.findElement(by.xpath('//span[text()=\''+day+'\']/../../../div[2]')).isDisplayed().then(function (boolean) {
       expect(boolean).to.equal(true)
     })
     // stepPage.hourlyforecast(day)
@@ -78,7 +77,6 @@ var WeatherFunctions = function () {
     browser.findElement(by.xpath("//input[@id='city']")).clear();
     browser.findElement(by.xpath("//input[@id='city']")).sendKeys(city);
     browser.findElement(by.xpath("//input[@id='city']")).sendKeys(protractor.Key.ENTER);
-    return browser
   })
   this.Given(/^I should get the message (.*)$/, function (err) {
       expect(element(by.xpath('//div[text()=\''+err+'\']')).isPresent()).to.become(true);

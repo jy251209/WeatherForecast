@@ -23,7 +23,7 @@ exports.config = {
   },
   cucumberOpts: {
     require: ['env.js', 'features/steps/steps.js'],
-    tags: '@all',
+    tags: '@weather-06',
     format: 'json:./reports/json/cucumber_report.json',
     dryRun: false,
   },
@@ -34,6 +34,7 @@ exports.config = {
 
   },
   onComplete: function () {
+    browser.sleep(1000)
     Reporter.createHTMLReport();
   },
   allScriptsTimeout: 1000000
