@@ -39,7 +39,7 @@
     "postinstall": "npm run build"
   },
   "dependencies": {
-    "axios": "^0.13.1",
+    "axios": "^0.21.1",
     "cucumber-html-report": "^0.6.5",
     "cucumber-html-reporter": "^4.0.4",
     "cucumberjs-allure-reporter": "^1.0.3",
