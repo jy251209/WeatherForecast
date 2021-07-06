@@ -177,3 +177,10 @@ const baseConfig = {
     },
     ...hooks
 };
+// ===========
+
+// waitForThwart(){
+//     browser.switchToParentFrame()
+//     browser.waitUntil(() => $('.document-statetracker').getAttribute('data-state-busy-status') === 'none',{timeout:120000})
+//     browser.switchToFrame(this.iframe);
+// }
