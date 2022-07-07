@@ -47,7 +47,7 @@
     "fs": "0.0.1-security",
     "lodash": "^4.15.0",
     "mkdirp": "^0.5.1",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "path": "^0.12.7",
     "protractor-multiple-cucumber-html-reporter-plugin": "^1.8.1",
     "radium": "^0.18.1",
